@@ -1,0 +1,92 @@
+
+SPRINT
+------
+Sprint 1: 
+26/5 - 28/5
+Scrummaster: Denny Gunawan (12.111.1362)
+
+Sprint 2:
+
+
+Sprint 3: 
+
+
+sprint 4:
+
+
+Progress Harian (Diupdate tiap hari)
+------------------------------------
+
+26/5
+Daily Scrum
+
+(Denny Gunawan):
+1.-
+2.
+3.kendala: clone
+
+(Rivaldi Warman):
+1. -
+2. hari ini buat slide sejarah
+3. kendala: -
+ 
+
+(Robet):
+1.-
+2.-
+3.kendala : instalasi
+
+
+(Fandy):
+1.-
+2.-
+3.kendala : instalasi
+
+
+27/5
+Daily Scrum
+(Denny Gunawan):
+1.-
+2.hari ini buat slide dan edit file definisi musik
+3.kendala: -
+
+(Rivaldi Warman):
+1. semalam buat slide sejarah
+2. hari ini edit slide sejarah
+3. kendala :-
+ 
+
+(Robet):
+1.-
+2.hari ini buat slide jenis musik dan edit file 
+3.kendala: -
+
+
+(Fandy):
+1.-
+2.-
+3.kendala:clone 
+
+28/5
+Daily Scrum
+(Denny Gunawan):
+1.semalam buat slide dan edit file definisi musik
+2.hari ini penambahan musik reggae pada slide musik
+3.kendala: -
+
+(Rivaldi Warman):
+1. semalam edit sejarah.jade
+2. hari ini edit slide sejarah dan definisi 
+3. kendala: -
+ 
+
+(Robet):
+1.semalam edit slide musik
+2.hari ini penambahan musik klasik dan musik seni pada slide musik
+3.kendala: -
+
+
+(Fandy):
+1.-
+2.buat slide prasejarah musik
+3.kendala= -
