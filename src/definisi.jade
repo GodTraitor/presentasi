@@ -1,22 +1,44 @@
 doctype html
 html
 
-head
+	head
+		meta(charset='utf-8')
+		title musik
 
-body
+		// build:css styles/styles.css
+		//- Check out 'src/bower_components/prism/themes/' for available themes
+		link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+		link(rel='stylesheet', type='text/css', href='styles/main.css')
+		// endbuild
 
-section
-h1 Definisi Musik
-h2 Musik merupakan bunyi yang diterima oleh individu atau kelompok berdasarkan sejarah, budaya, lokasi dan selera. Definisi musik sangat luas.
+	body
 
-section
-h2 Menurut Kamus Besar Bahasa Indonesia yaitu:
-ul
-li- ilmu atau seni penyusunan nada/suara, kombinasi, dan hubungan temporal untuk menghasilkan komposisi (suara) yg mempunyai kesatuan & kesinambungan. 
-li- Nada atau suara yang disusun sedemikian rupa sehingga mengandung irama, lagu, dan keharmonisan (terutama yang menggunakan alat-alat yang dapat menghasilkan bunyi-bunyi itu)
+		section
+			h1 Definisi Musik
+			h2 Musik merupakan bunyi yang diterima oleh individu atau kelompok berdasarkan sejarah, budaya, lokasi dan selera. Definisi musik sangat luas.
+
+		section
+			h2 Menurut Kamus Besar Bahasa Indonesia yaitu:
+			ul
+				li- ilmu atau seni penyusunan nada/suara, kombinasi, dan hubungan temporal untuk menghasilkan komposisi (suara) yg mempunyai kesatuan & kesinambungan. 
+				li- Nada atau suara yang disusun sedemikian rupa sehingga mengandung irama, lagu, dan keharmonisan (terutama yang menggunakan alat-alat yang dapat menghasilkan bunyi-bunyi itu)
 
 
-section
-h3 Di jaman sekarang ini siapa yang tidak membutuhkan musik? Hampir semua manusia membutuhkan musik karena musik merupakan suatu kebutuhan pokok bagi setiap manusia sebab musik dapat menjadikan kita merasa senang, gembira dan nyaman.
+		section
+			h3 Di jaman sekarang ini siapa yang tidak membutuhkan musik? Hampir semua manusia membutuhkan musik karena musik merupakan suatu kebutuhan pokok bagi setiap manusia sebab musik dapat menjadikan kita merasa senang, gembira dan nyaman.
 
-h3  Dalam bidang akademis musik dapat membantu pola belajar, mengatasi kebosanan, membantu merasa bertenaga, mengurangi kesedihan, meningkatan percaya diri, menghapus kemarahan dan melepaskan stress serta mengurangi rasa takut dan cemas.
+			h3  Dalam bidang akademis musik dapat membantu pola belajar, mengatasi kebosanan, membantu merasa bertenaga, mengurangi kesedihan, meningkatan percaya diri, menghapus kemarahan dan melepaskan stress serta mengurangi rasa takut dan cemas.
+
+		// build:js scripts/scripts.js
+		script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+		script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+		script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+		script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+		script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+		script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+		script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+		script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+		script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+		script(src='bower_components/prism/prism.js')
+		script(src='scripts/main.js')
+		// endbuild
