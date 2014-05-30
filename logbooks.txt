@@ -1,4 +1,23 @@
+==========================
+INFORMASI UMUM
 
+Nama kelompok	: Spirit
+judul topik	: Musik
+alamat Github	: www.github.com/DennyGunawan/presentasi
+alamat trello	: www.trello.com/b/bXHd0BVK/project-tkppl
+anggota 1:
+	nama	: Denny Gunawan 
+	nim	: 12.111.1362
+anggota 2:
+	nama	: Rivaldi Warman
+	nim	: 12.111.3223
+anggota 3:
+	nama	: Robet
+	nim	: 12.111.0545
+anggota 4:
+	nama	: Fandy
+	nim	: 12.111.0308
+=========================
 SPRINT
 ------
 Sprint 1: 
@@ -114,4 +133,28 @@ Daily Scrum
 (Fandy):
 1. semalam buar slide pop dan RnB
 2. hari ini buat slide rock
+3.kendala : - 
+
+30/5
+Daily scrum
+(Denny Gunawan)
+1.semalam buat slide dan edit musik jazz
+2.hari ini slide musik amerika latin
+3.kendala: -
+
+(Rivaldi Warman):
+1. semalam buat slide gopsel 
+2. hari ini penambahan sejarah musik gospel
+3. kendala: -
+ 
+
+(Robet):
+1.semalam buat slide blues
+2.hari ini penambahan keterangan dan history singkat musik blues
+3.kendala: -
+
+
+(Fandy):
+1. semalam buat slide rock
+2. hari ini buat pengertian musik rock dan asal-usul rock&roll
 3.kendala : - 
