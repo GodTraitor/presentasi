@@ -1,18 +1,35 @@
 doctype html
 html
 
-head
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        title musik
+        // build:css styles/styles.css
+        //- Check out 'src/bower_components/prism/themes/' for available themes
+        link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+        link(rel='stylesheet', type='text/css', href='styles/main.css')
+        // endbuild
 
-body
+    body
 
-section
-h1 sejarah musik R dan B
-
-section
-h2 Pada tahun 1948, perusahaan rekaman RCA Victor memasarkan musik kaum kulit hitam yang disebut Blues and Rhythm.
-
-section
-h3 Pada tahun yang sama, Louis Jordan mendominasi lima besar tangga lagu R&B dengan tiga lagu, dan dua dari lagunya berdasar pada ritme boogie-woogie yang terkenal pada tahun 1940-an.
-
-section
-h4 Band Jordan, Tympany Five (1938) terdiri dari dirinya sebagai vokal dan pemain saksofon beserta musisi-musisi lain sebagai pemain trompet, saksofon tenor, piano, bas, dan drum.
+	section
+		h1 sejarah musik RnB
+		h2 Pada tahun 1948, perusahaan rekaman RCA Victor memasarkan musik kaum kulit hitam yang disebut Rhythm and Blues.
+		h3 Pada tahun yang sama, Louis Jordan mendominasi lima besar tangga lagu R&B dengan tiga lagu, dan dua dari lagunya berdasar pada ritme boogie-woogie yang terkenal pada tahun 1940-an.
+		
+		
+		// build:js scripts/scripts.js
+        script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+        script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+        script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+        script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+        script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+        script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+        script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+        script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+        script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+        script(src='bower_components/prism/prism.js')
+        script(src='scripts/main.js')
+        // endbuild
+ No newline at end of file

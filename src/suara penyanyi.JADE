@@ -1,24 +1,42 @@
 doctype html
 html
 
-head
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        title musik
+        // build:css styles/styles.css
+        //- Check out 'src/bower_components/prism/themes/' for available themes
+        link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+        link(rel='stylesheet', type='text/css', href='styles/main.css')
+        // endbuild
 
-body
+    body
 
-section
-h1 suara penyanyi
-
-section
-h2 suara penyanyi dikategorikan menurut jenis kelaminnya yaitu
-
-section
-h3 suara laki laki
-
-section
-h4 tenor(suara tinggi), bariton(suara menengah), bas(suara rendah)
-
-section
-h5 suara perempuan
-
-section
-h6 sopran(suara tinggi), mezzo-sopran(suaran menengah), kontralto/alto(suara rendah)
+	section
+		h1 suara penyanyi
+		h2 suara penyanyi dikategorikan menurut jenis kelaminnya yaitu
+		ul
+			li suara laki laki
+			li tenor(suara tinggi)
+			li bariton(suara menengah)
+			li bas(suara rendah)
+			li suara perempuan
+			li sopran(suara tinggi)
+			li mezzo-sopran(suaran menengah)
+			li kontralto/alto(suara rendah)
+		
+		// build:js scripts/scripts.js
+        script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+        script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+        script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+        script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+        script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+        script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+        script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+        script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+        script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+        script(src='bower_components/prism/prism.js')
+        script(src='scripts/main.js')
+        // endbuild
+ No newline at end of file

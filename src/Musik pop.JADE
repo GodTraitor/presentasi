@@ -1,14 +1,32 @@
 doctype html
 html
-head
-section
-h1 musik pop
 
-section
-h2 Musik pop (istilah yang awalnya berasal dari singkatan dari "populer") adalah sebuah genre musik dari musik populer yang berasal dalam bentuk modern pada 1950-an, yang berasal dari rock and roll.[1] Istilah musik populer dan musik pop sering digunakan secara bergantian, meskipun yang pertama adalah deskripsi musik yang populer (dan dapat termasuk gaya apapun), sedangkan yang terakhir adalah genre tertentu yang mengandung kualitas daya tarik massa.
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        title musik
+        // build:css styles/styles.css
+        //- Check out 'src/bower_components/prism/themes/' for available themes
+        link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+        link(rel='stylesheet', type='text/css', href='styles/main.css')
+        // endbuild
 
-section
-h3 Sebagai genre, musik pop sangat eklektik, sering meminjam elemen dari gaya-gaya lain termasuk urban, dance, rock, latin dan country
+    body
 
-section
-h4 Musik pop umumnya dianggap sebagai sebuah genre yang komersial dicatat dan keinginan untuk memiliki daya tarik audiens massa
+	section
+		h1 Musik pop adalah sebuah genre musik dari musik populer yang berasal dari rock n roll pada 1950-an, musik pop sangat eklektik, sering meminjam elemen dari gaya-gaya lain termasuk urban, dance, rock, latin dan country. Musik pop umumnya dianggap sebagai sebuah genre yang komersial dicatat dan keinginan untuk memiliki daya tarik audiens massa.
+		
+		// build:js scripts/scripts.js
+        script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+        script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+        script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+        script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+        script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+        script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+        script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+        script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+        script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+        script(src='bower_components/prism/prism.js')
+        script(src='scripts/main.js')
+        // endbuild
+ No newline at end of file
